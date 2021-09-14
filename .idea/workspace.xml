@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c6efa03c-a4f3-4c18-843b-3c2474462079" name="Default" comment="" />
+    <list default="true" id="c6efa03c-a4f3-4c18-843b-3c2474462079" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/feign-consumer/target/classes/application.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-consumer/target/classes/com/qxf/FeignConsumer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-consumer/target/classes/com/qxf/OpenfeignApp.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-consumer/target/classes/com/qxf/config/FeignConfig.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-consumer/target/classes/com/qxf/controller/FeignController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-consumer/target/classes/com/qxf/feign/TestFeignService.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-consumer/target/classes/com/qxf/feign/TestFeignServiceFallback$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-consumer/target/classes/com/qxf/feign/TestFeignServiceFallback.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-provider/target/classes/application.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-provider/target/classes/com/qxf/FeignProvider.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/feign-provider/target/classes/com/qxf/controller/ProviderController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/classes/application.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/classes/com/qxf/GatewayApp.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/classes/com/qxf/controller/TestController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/classes/com/qxf/filter/MyGlobalFilter.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nacos-client/target/classes/bootstrap.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nacos-client/target/classes/bootstrap_bak.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nacos-client/target/classes/com/qxf/NacosClientApp.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nacos-client/target/classes/com/qxf/controller/HelloController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/nacos-client/target/classes/com/qxf/controller/NacosTestController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/security-filter/target/classes/com/qxf/filter/AccessFilter.class" afterPath="" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/gateway/target/" />
@@ -55,7 +77,7 @@
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.1.RELEASE/spring-cloud-gateway-core-2.2.1.RELEASE.jar!/org/springframework/cloud/gateway/discovery/GatewayDiscoveryClientAutoConfiguration.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="372">
-              <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+              <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
               <folding>
                 <marker date="1589284362909" expanded="false" signature="0:104" ph="/.../" />
                 <marker date="1589284362909" expanded="false" signature="167:1452" ph="..." />
@@ -85,7 +107,17 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
               <caret line="22" column="60" lean-forward="false" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="60" />
-              <folding />
+              <folding>
+                <marker date="1589376368529" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1589376368529" expanded="false" signature="157:698" ph="..." />
+                <marker date="1589376368529" expanded="true" signature="1075:1138" ph="{...}" />
+                <marker date="1589376368529" expanded="false" signature="1171:1182" ph=" { " />
+                <marker date="1589376368529" expanded="false" signature="1227:1233" ph=" }" />
+                <marker date="1589376368529" expanded="true" signature="1299:1665" ph="{...}" />
+                <marker date="1589376368529" expanded="true" signature="1760:2865" ph="{...}" />
+                <marker date="1589376368529" expanded="true" signature="2977:3416" ph="{...}" />
+                <marker date="1589376368529" expanded="true" signature="3456:3803" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -95,7 +127,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
               <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding />
+              <folding>
+                <marker date="1588596909782" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1588596909782" expanded="false" signature="173:446" ph="..." />
+                <marker date="1588596909782" expanded="true" signature="664:739" ph="{...}" />
+                <marker date="1588596909782" expanded="false" signature="772:783" ph=" { " />
+                <marker date="1588596909782" expanded="false" signature="816:822" ph=" }" />
+                <marker date="1588596909782" expanded="true" signature="888:1250" ph="{...}" />
+                <marker date="1588596909782" expanded="false" signature="1289:1300" ph=" { " />
+                <marker date="1588596909782" expanded="false" signature="1377:1383" ph=" }" />
+                <marker date="1588596909782" expanded="false" signature="1410:1421" ph=" { " />
+                <marker date="1588596909782" expanded="false" signature="1470:1476" ph=" }" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,7 +147,7 @@
         <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.1.RELEASE/spring-cloud-gateway-core-2.2.1.RELEASE.jar!/org/springframework/cloud/gateway/discovery/DiscoveryClientRouteDefinitionLocator.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="199">
-              <caret line="54" column="52" lean-forward="true" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
+              <caret line="54" column="52" lean-forward="false" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
               <folding>
                 <marker date="1589284362909" expanded="false" signature="0:104" ph="/.../" />
                 <marker date="1589284362909" expanded="false" signature="167:1445" ph="..." />
@@ -221,6 +264,9 @@
     <replaceStrings>
       <replace />
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -739,6 +785,7 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -772,102 +819,22 @@
             <path>
               <item name="cloud-alibaba" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud-alibaba" type="462c0819:PsiDirectoryNode" />
-              <item name="feign-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-alibaba" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-alibaba" type="462c0819:PsiDirectoryNode" />
-              <item name="feign-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-alibaba" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-alibaba" type="462c0819:PsiDirectoryNode" />
-              <item name="feign-consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-alibaba" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-alibaba" type="462c0819:PsiDirectoryNode" />
               <item name="feign-provider" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud-alibaba" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud-alibaba" type="462c0819:PsiDirectoryNode" />
-              <item name="feign-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-alibaba" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-alibaba" type="462c0819:PsiDirectoryNode" />
-              <item name="feign-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-alibaba" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-alibaba" type="462c0819:PsiDirectoryNode" />
-              <item name="feign-provider" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-alibaba" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-alibaba" type="462c0819:PsiDirectoryNode" />
               <item name="gateway" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud-alibaba" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud-alibaba" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="nacos-client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cloud-alibaba" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud-alibaba" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-alibaba" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-alibaba" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-alibaba" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-alibaba" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qxf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-alibaba" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-alibaba" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qxf" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloud-alibaba" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloud-alibaba" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="security-filter" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -1159,12 +1126,12 @@
       <workItem from="1631537366586" duration="4368000" />
       <workItem from="1631545529202" duration="3790000" />
       <workItem from="1631620037022" duration="7173000" />
-      <workItem from="1631632132207" duration="804000" />
+      <workItem from="1631632132207" duration="1055000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61189000" />
+    <option name="totallyTimeSpent" value="61440000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1174,9 +1141,9 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5151515" sideWeight="0.5042644" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38636363" sideWeight="0.49573562" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38678223" sideWeight="0.49573562" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1371,6 +1338,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="364">
           <caret line="29" column="54" lean-forward="false" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="54" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1378,6 +1346,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="97" column="21" lean-forward="false" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1421,6 +1390,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="16" column="65" lean-forward="false" selection-start-line="16" selection-start-column="65" selection-end-line="16" selection-end-column="65" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1585,6 +1555,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1592,6 +1563,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1612,7 +1584,7 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.1.RELEASE/spring-cloud-gateway-core-2.2.1.RELEASE.jar!/org/springframework/cloud/gateway/discovery/GatewayDiscoveryClientAutoConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
-          <caret line="113" column="0" lean-forward="true" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
           <folding>
             <marker date="1589284362909" expanded="false" signature="0:104" ph="/.../" />
             <marker date="1589284362909" expanded="false" signature="167:1452" ph="..." />
@@ -1640,7 +1612,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="22" column="60" lean-forward="false" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="60" />
-          <folding />
+          <folding>
+            <marker date="1589376368529" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1589376368529" expanded="false" signature="157:698" ph="..." />
+            <marker date="1589376368529" expanded="true" signature="1075:1138" ph="{...}" />
+            <marker date="1589376368529" expanded="false" signature="1171:1182" ph=" { " />
+            <marker date="1589376368529" expanded="false" signature="1227:1233" ph=" }" />
+            <marker date="1589376368529" expanded="true" signature="1299:1665" ph="{...}" />
+            <marker date="1589376368529" expanded="true" signature="1760:2865" ph="{...}" />
+            <marker date="1589376368529" expanded="true" signature="2977:3416" ph="{...}" />
+            <marker date="1589376368529" expanded="true" signature="3456:3803" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1648,14 +1630,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
+          <folding>
+            <marker date="1588596909782" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1588596909782" expanded="false" signature="173:446" ph="..." />
+            <marker date="1588596909782" expanded="true" signature="664:739" ph="{...}" />
+            <marker date="1588596909782" expanded="false" signature="772:783" ph=" { " />
+            <marker date="1588596909782" expanded="false" signature="816:822" ph=" }" />
+            <marker date="1588596909782" expanded="true" signature="888:1250" ph="{...}" />
+            <marker date="1588596909782" expanded="false" signature="1289:1300" ph=" { " />
+            <marker date="1588596909782" expanded="false" signature="1377:1383" ph=" }" />
+            <marker date="1588596909782" expanded="false" signature="1410:1421" ph=" { " />
+            <marker date="1588596909782" expanded="false" signature="1470:1476" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-gateway-core/2.2.1.RELEASE/spring-cloud-gateway-core-2.2.1.RELEASE.jar!/org/springframework/cloud/gateway/discovery/DiscoveryClientRouteDefinitionLocator.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
-          <caret line="54" column="52" lean-forward="true" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
+          <caret line="54" column="52" lean-forward="false" selection-start-line="54" selection-start-column="52" selection-end-line="54" selection-end-column="52" />
           <folding>
             <marker date="1589284362909" expanded="false" signature="0:104" ph="/.../" />
             <marker date="1589284362909" expanded="false" signature="167:1445" ph="..." />
