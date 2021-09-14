@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="feign-consumer" />
+        <module name="feign-provider" />
+        <module name="gateway" />
+        <module name="nacos-client" />
+        <module name="openfeign" />
+        <module name="security-filter" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-alibaba" target="1.8" />
+      <module name="feign-consumer" target="1.8" />
+      <module name="feign-provider" target="1.8" />
+      <module name="gateway" target="1.8" />
+      <module name="nacos-client" target="1.8" />
+      <module name="openfeign" target="1.8" />
+      <module name="security-filter" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

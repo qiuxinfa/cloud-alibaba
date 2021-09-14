@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-alibaba.iml" filepath="$PROJECT_DIR$/cloud-alibaba.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-consumer/feign-consumer.iml" filepath="$PROJECT_DIR$/feign-consumer/feign-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/feign-provider/feign-provider.iml" filepath="$PROJECT_DIR$/feign-provider/feign-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-client/nacos-client.iml" filepath="$PROJECT_DIR$/nacos-client/nacos-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security-filter/security-filter.iml" filepath="$PROJECT_DIR$/security-filter/security-filter.iml" />
+    </modules>
+  </component>
+</project>

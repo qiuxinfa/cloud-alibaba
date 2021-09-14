@@ -1,0 +1,27 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: nacos-client
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      config:
+        server-addr: localhost:8848 #Nacos作为配置中心地址
+        file-extension: yaml #指定yaml格式的配置
+        # 共享配置的DataId，多个使用，分隔
+        # 越靠后，优先级越高
+        # .yaml后缀不能少，只支持yaml/properties
+        shared-dataids: common.yaml,common2.yaml
+        # 哪些共享配置支持动态刷新，多个使用，分隔
+        refreshable-dataids: common2.yaml
+        # 拓展配置，越后面的配置，优先级越高，nacos-client-dev.yaml的优先级最低
+#        ext-config:
+#          - data-id: common.yaml
+#            #默认数据不会主动刷新，添加改属性会动态刷新
+#            refresh: true
+#          - data-id: common2.yaml
+#            #默认数据不会主动刷新，添加改属性会动态刷新
+#            refresh: true
